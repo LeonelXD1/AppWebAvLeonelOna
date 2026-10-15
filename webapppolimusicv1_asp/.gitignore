@@ -1,0 +1,27 @@
+# =====================================================================
+#  PoliMusic - archivos excluidos del control de versiones
+# =====================================================================
+
+# Entorno de desarrollo local (IIS Express).
+# _test contiene un enlace (junction) a PoliMusic: si se versiona, la
+# aplicacion completa se duplicaria dentro del repositorio.
+_test/
+tools/iisexpress.config
+tools/iislogs/
+
+# Capturas de pantalla generadas por tools/screenshot.js
+_shots/
+
+# Sistema operativo y editores
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+*.swo
+.vs/
+.vscode/
+.idea/
+
+# Registros y temporales
+*.log
+*.tmp
