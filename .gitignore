@@ -29,3 +29,6 @@ desktop.ini
 *.csproj.user
 bin
 obj
+/packages
+/.workbuddy-ai/memory
+/webapppolimusicv1_asp/.workbuddy-ai/memory/2026-10-15.md
